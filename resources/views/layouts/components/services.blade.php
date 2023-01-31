@@ -53,11 +53,13 @@
     @media (max-width:641px) {
 
         /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+        .services-section {
+            /*overflow-x: hidden;*/
+        }
 
         .services {
             display: flex;
             flex-direction: column;
-
         }
 
         .service-card {

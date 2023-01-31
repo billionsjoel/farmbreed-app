@@ -22,8 +22,18 @@
     <link href="{{ asset('font-awesome/css/solid.css') }}" rel="stylesheet">
 
     <style>
-        body {
+        body,
+        html {
             font-family: 'Asap', sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        body {
+            position: relative;
         }
 
         .black {
@@ -45,6 +55,15 @@
         .bg-hover:hover {
             background-color: #f557c3 !important;
             color: white;
+        }
+
+        @media (max-width:641px) {
+            body {
+                font-family: 'Asap', sans-serif;
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden !important;
+            }
         }
     </style>
 </head>

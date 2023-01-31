@@ -72,11 +72,19 @@
 
         .footer-card {
             margin-top: 3rem;
-            text-align: center;
+            text-align: left;
         }
 
         .footer-card>ul>li:last-child {
             margin-bottom: 3rem;
+        }
+
+        .licence {
+            margin-bottom: 3rem;
+        }
+
+        .licence>p {
+            padding-bottom: 3rem;
         }
     }
 </style>

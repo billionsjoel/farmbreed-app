@@ -38,6 +38,8 @@
         .cta-section {
             background-color: #FFF5EA;
             padding: -6rem 0 0 0;
+            /*overflow-x: hidden;*/
+
         }
 
         .cta-container {

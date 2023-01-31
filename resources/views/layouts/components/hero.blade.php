@@ -83,11 +83,15 @@
     @media (max-width:641px) {
 
         /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-        .hero-title {}
+        .hero-section {
+            height: 98vh;
+
+        }
 
         .hero {
             display: flex;
             flex-direction: column;
+            gap: 2rem;
         }
     }
 </style>
