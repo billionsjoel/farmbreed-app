@@ -85,12 +85,12 @@
         /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
         .hero-section {
             height: 98vh;
-
         }
 
         .hero {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(1, 50vh);
+            grid-template-rows: repeat(2, 1fr);
             gap: 2rem;
         }
     }
