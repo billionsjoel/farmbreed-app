@@ -23,7 +23,7 @@
             @endif
         </div>
         <div class="logout">
-            <button href="{{ url('/logout') }}">Logout</button>
+            <a href="{{ url('logout') }}">Logout</a>
         </div>
     </div>
     <div class="container">

@@ -8,6 +8,8 @@
 
 @section('content')
     <div class="container reg-section">
+        @include('../../layouts/components/nav')
+
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
