@@ -102,7 +102,7 @@
                 <h1>Hyline-FarmBreed</h1>
                 <h3 class="t-sub black">Efficiency <span class="italics"> plus+</span></h3>
                 <p class="pt-4 black">Africa's number one chick now available.</p>
-                <div class="btn bg-primary-color text-white hero-cta">Get Started</div>
+                <div class="btn bg-primary-color text-white hero-cta">Order Today Now!</div>
             </div>
             <div class="hero-image">
                 <img src="{{ asset('images/dayold.jpg') }}" class="img img-fluid" alt="">

@@ -37,7 +37,7 @@
 <section class="navigation p-4 fixed-top">
     <nav class="container navbar navbar-expand-md transparent fixed-top pt-4" aria-label="Fourth navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand primary-color hover" href="#">Hyline-FarmBreed</a>
+            <a class="navbar-brand primary-color hover" href="{{ url('/') }}">Hyline-FarmBreed</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,7 +46,8 @@
             <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link primary-color" aria-current="page" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link" aria-current="page" href="{{ url('/') }}">Farmer's
+                            Cave</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
