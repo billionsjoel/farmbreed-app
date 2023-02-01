@@ -1,13 +1,13 @@
 <style>
     .login-section {
-        margin-top: 6rem;
+        margin-top: 9rem;
     }
 </style>
 
 @extends('layouts.app')
 
 @section('content')
-    <div class="container login-section">
+    <div class="container login-section pb-4">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
