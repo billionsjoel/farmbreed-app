@@ -1,4 +1,11 @@
 <style>
+    .navigation {
+        background: linear-gradient(to bottom, #fff, #FFE4B5);
+        backdrop-blur: 500px;
+        padding: 3rem !important;
+        opacity: 0.8;
+    }
+
     .transparent {
         text: #757575;
     }
@@ -27,8 +34,8 @@
     }
 </style>
 
-<section class="navigation p-4">
-    <nav class="container navbar navbar-expand-md transparent" aria-label="Fourth navbar example">
+<section class="navigation p-4 fixed-top">
+    <nav class="container navbar navbar-expand-md transparent fixed-top pt-4" aria-label="Fourth navbar example">
         <div class="container-fluid">
             <a class="navbar-brand primary-color hover" href="#">Hyline-FarmBreed</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
