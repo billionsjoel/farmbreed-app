@@ -1,24 +1,30 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container d-flex justify-content-end">
-        @if (Route::has('login'))
-            <div class="">
-                @auth
-                    <div class="me-4">Welcome <a href="{{ url('/home') }}"
-                            class="text-decoration-none">{{ auth()->user()->name }}</a></div>
-                    <div class="me-4"><a href="{{ url('') }}" class="text-decoration-none">{{ auth()->user()->email }}</a>
-                    </div>
-                @else
-                    <a href="{{ route('login') }}" class="btn bg-primary-color text-white bg-hover btn-sm login-btn">Log
-                        in</a>
+    <div class="container d-flex justify-content-between">
+        <div class="user-details">
+            @if (Route::has('login'))
+                <div class="">
+                    @auth
+                        <div class="me-4">Welcome <a href="{{ url('/home') }}"
+                                class="text-decoration-none">{{ auth()->user()->name }}</a></div>
+                        <div class="me-4"><a href="{{ url('') }}"
+                                class="text-decoration-none">{{ auth()->user()->email }}</a>
+                        </div>
+                    @else
+                        <a href="{{ route('login') }}" class="btn bg-primary-color text-white bg-hover btn-sm login-btn">Log
+                            in</a>
 
-                    @if (Route::has('register'))
-                        <a href="{{ route('register') }}" class="btn register-btn btn-sm">Register</a>
-                    @endif
-                @endauth
-            </div>
-        @endif
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="btn register-btn btn-sm">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+        </div>
+        <div class="logout">
+            <button href="{{ url('/logout') }}">Logout</button>
+        </div>
     </div>
     <div class="container">
         <div class="row justify-content-center">
