@@ -76,7 +76,7 @@
 
 <body>
     <div id="app">
-        @include('layouts.components.nav')
+        {{--@include('layouts.components.nav')--}}
         <main class="py-4">
             @yield('content')
         </main>
