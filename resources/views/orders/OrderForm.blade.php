@@ -8,12 +8,27 @@
         color: #757575;
     }
 
+    .order-btn {
+        background-color: #f80 !important;
+        color: #fff !important;
+        width: 100% !important;
+    }
+
+    .order-btn:hover {
+        background-color: #f557c3 !important;
+    }
+
     fieldset.bk-border {
         border: 1px groove #ddd !important;
-        padding: 0 1.4em 1.4em 1.4em !important;
-        margin: 0 0 1.5em 0 !important;
+        padding: 0 1.4em 0 1.4em !important;
+        margin: 0 0 0 0 !important;
         -webkit-box-shadow: 0px 0px 0px 0px #000;
         box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    .lg-border {
+        font-weight: 600;
+        color: #757575;
     }
 </style>
 @extends('layouts.app')
@@ -27,7 +42,8 @@
                 <div class="col-md-6 mt-5">
                     <fieldset class="bk-border">
                         <legend class="text-center mt-3 lg-border mb-4">Booking Form</legend>
-                        <form>
+                        <form action="{{ route('order') }}" method="POST">
+                            @csrf
                             <div class="form-group row mt-5">
                                 <label for="name" class="col-sm-3 col-form-label">Name</label>
                                 <div class="col-sm-9">
@@ -70,7 +86,7 @@
                             </div>
                             <div class="form-group row mt-5 mb-5">
                                 <div class="col-sm-12 text-center">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn order-btn">Submit</button>
                                 </div>
                             </div>
                         </form>

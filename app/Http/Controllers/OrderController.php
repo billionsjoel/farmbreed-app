@@ -10,4 +10,8 @@ class OrderController extends Controller
     {
         return view('orders.OrderForm');
     }
+    public function storeOrder()
+    {
+        return view('orders.receipt');
+    }
 }

@@ -46,17 +46,20 @@
             <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="{{ url('/') }}">Farmer's
+                        <a class="nav-link ms-2" aria-current="page" href="{{ url('/') }}">Farmer's
                             Cave</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link ms-2" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link ms-2">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">FAQs</a>
+                        <a class="nav-link ms-2" href="{{ url('/orders') }}">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2">FAQs</a>
                     </li>
                 </ul>
                 <div class="ms-4">

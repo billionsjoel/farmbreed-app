@@ -22,4 +22,7 @@ Route::get('/logout', [App\Http\Controllers\LogoutController::class, 'logout'])-
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/order', [App\Http\Controllers\OrderController::class, 'index'])->name('order');
+Route::post('/order', [App\Http\Controllers\OrderController::class, 'storeOrder']);
+
