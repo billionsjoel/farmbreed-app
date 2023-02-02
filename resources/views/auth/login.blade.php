@@ -21,12 +21,20 @@
         width: 100% !important;
     }
 
+    .login_btn:hover {
+        background-color: #f557c3 !important;
+    }
+
     .forgot {
         display: flex;
         justify-content: center;
         align-items: center;
         color: #757575 !important;
         margin: 2rem 0 -2rem 0 !important;
+    }
+
+    .fw-200 {
+        font-weight: 200 !important;
     }
 </style>
 
@@ -93,13 +101,14 @@
 
                             <div class="row mb-0">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn login_btn">
+                                    <button type="submit" class="btn login_btn fw-200">
                                         {{ __('Log in') }}
                                     </button>
                                 </div>
                                 <div class="col-md-12 forgot">
                                     @if (Route::has('password.request'))
-                                        <a class="btn btn-link primary-color" href="{{ route('password.request') }}">
+                                        <a class="btn btn-link primary-color fw-200"
+                                            href="{{ route('password.request') }}">
                                             {{ __('Forgot Your Password?') }}
                                         </a>
                                     @endif
