@@ -15,7 +15,7 @@
         width: 100% !important;
     }
 
-    .reg:hover {
+    .reg_btn:hover {
         background-color: #f557c3 !important;
     }
 </style>
