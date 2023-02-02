@@ -8,6 +8,6 @@ class OrderController extends Controller
 {
     public function index()
     {
-        return view('orders.orderform');
+        return view('orders.OrderForm');
     }
 }
