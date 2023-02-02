@@ -1,6 +1,32 @@
 <style>
     .login-section {
         margin-top: 9rem;
+        font-family: 'Asap', sans-serif;
+        font-weight: 200;
+    }
+
+    .form-bg {
+        background-color: #f80 !important;
+        color: white !important;
+        border: 2px solid #f80;
+    }
+
+    .card {
+        border: 2px solid #f80 !important;
+    }
+
+    .login_btn {
+        background-color: #f80 !important;
+        color: white !important;
+        width: 100% !important;
+    }
+
+    .forgot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #757575 !important;
+        margin: 2rem 0 -2rem 0 !important;
     }
 </style>
 
@@ -9,11 +35,10 @@
 @section('content')
     <div class="container login-section pb-4">
         @include('../../layouts/components/nav')
-
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header">{{ __('Login') }}</div>
+                    <div class="card-header black form-bg">{{ __('Login') }}</div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('login') }}">
@@ -67,13 +92,14 @@
                             </div>
 
                             <div class="row mb-0">
-                                <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">
-                                        {{ __('Login') }}
+                                <div class="col-md-6 offset-md-4">
+                                    <button type="submit" class="btn login_btn">
+                                        {{ __('Log in') }}
                                     </button>
-
+                                </div>
+                                <div class="col-md-12 forgot">
                                     @if (Route::has('password.request'))
-                                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        <a class="btn btn-link primary-color" href="{{ route('password.request') }}">
                                             {{ __('Forgot Your Password?') }}
                                         </a>
                                     @endif
