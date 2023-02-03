@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/about', function () {
+    return view('pages.about');
+});
 
 Route::get('/logout', [App\Http\Controllers\LogoutController::class, 'logout'])->name('logout');
 

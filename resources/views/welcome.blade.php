@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="farmbeed"
         content="Farmbreed efficiency plus is a company focused on empowering communities to thrive through profitable farming. " />
-
+    <link rel="canonical" href="https://farmbreed.ug/">
+    <meta name="robots" content="index,follow">
 
     <title>Hyline-FarmBreed</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
