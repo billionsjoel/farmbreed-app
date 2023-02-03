@@ -71,13 +71,13 @@
 
 <section class="services-section">
     <h1 class="black text-center p-4">Our services</h1>
-    <div class="services">
-        <div class="service-card">
+    <div class="row services">
+        <div class="col-md-4 service-card">
             <i class="fa-sharp fa-solid fa-egg fa-10x mb-4 primary-color"></i>
             <h2 class="primary-color">FarmBreed</h2>
             <p class="pb-4 primary-color">Africa's super chick</p>
         </div>
-        <div class="service-list">
+        <div class="col-md-4 service-list">
             <ul>
                 <li>
                     <a href="">Day old chicks</a>

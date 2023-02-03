@@ -85,6 +85,7 @@
         /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
         .hero-section {
             height: 98vh;
+            margin-top: 7rem;
         }
 
         .hero {
@@ -105,7 +106,9 @@
                 <a href="{{ url('/order') }}" class="btn bg-primary-color text-white hero-cta">Order Today Now!</a>
             </div>
             <div class="hero-image">
-                <img src="{{ asset('images/dayold.jpg') }}" class="img img-fluid" alt="">
+                <div class="slider">
+                    <img src="{{ asset('images/dayold.jpg') }}" class="img img-fluid" alt="">
+                </div>
             </div>
         </div>
     </main>

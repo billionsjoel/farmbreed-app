@@ -56,7 +56,7 @@
                         <a class="nav-link ms-2">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2" href="{{ url('/orders') }}">Book Now</a>
+                        <a class="nav-link ms-2" href="{{ url('/order') }}">Book Now</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ms-2">FAQs</a>
