@@ -10,8 +10,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="farmbeed"
+        content="Farmbreed efficiency plus is a company focused on empowering communities to thrive through profitable farming. " />
 
-    <title>FarmBreed Poultry</title>
+    <title>Hyline-FarmBreed</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
     <!-- Fonts -->
