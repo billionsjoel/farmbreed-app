@@ -32,6 +32,14 @@
         background-color: #f80;
         color: white;
     }
+
+    @media (max-width:641px) {
+        .collapse {
+            background: #FFE4B5;
+            color: white !important;
+            padding: 1rem 1rem 2rem 1rem;
+        }
+    }
 </style>
 
 <section class="navigation p-4 fixed-top">
