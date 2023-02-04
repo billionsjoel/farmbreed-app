@@ -69,6 +69,9 @@
                     <li class="nav-item">
                         <a class="nav-link ms-2">FAQs</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2">Shop</a>
+                    </li>
                 </ul>
                 <div class="ms-4">
                     @if (Route::has('login'))
