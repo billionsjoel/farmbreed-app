@@ -41,7 +41,7 @@
         margin-top: 3rem;
     }
 
-    .licence>p {
+    .copright>p {
         font-size: 1rem;
         font-weight: 300;
         line-height: 2rem;
@@ -80,10 +80,6 @@
         }
 
         .licence {
-            margin-bottom: 3rem;
-        }
-
-        .licence>p {
             padding-bottom: 3rem;
         }
     }
@@ -136,9 +132,15 @@
 
         <div class="licence">
             <h3>Licensed under</h3>
-            <p class="black">National Payment Systems (NPS) • License by bank of Uganda
-                Personal Data Protection Office (PDPO) under the National Information Technology Authority (NITA)
-                © farmbreed 2022, All rights reserved.</p>
+            <div class="row">
+                <div class="col-md-12 copright">
+                    <p class="black">
+                        GNU General Public License (GPL)
+                    </p>
+                    <p class="black">&copy; farmbreed 2022, All rights reserved.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
