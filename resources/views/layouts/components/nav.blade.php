@@ -59,9 +59,9 @@
                             Farming Guide
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Day old Guide</a></li>
-                            <li><a class="dropdown-item" href="#">Feeding Guide</a></li>
-                            <li><a class="dropdown-item" href="#">Pricing Guide</a></li>
+                            <li><a class="nav-link dropdown-item" href="#">Day old Guide</a></li>
+                            <li><a class="nav-link dropdown-item" href="#">Feeding Guide</a></li>
+                            <li><a class="nav-link dropdown-item" href="#">Pricing Guide</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
