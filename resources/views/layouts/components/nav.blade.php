@@ -68,7 +68,7 @@
                         <a class="nav-link ms-2" href="/about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2">Contact</a>
+                        <a class="nav-link ms-2" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ms-2" href="{{ url('/order') }}">Book Now</a>
